@@ -8,7 +8,7 @@ class Customer{
 
     }
 
-    public function SayHello(String $name): String
+    public function SayHello(String $name = "Guest"): String
     {
         return "Hello $name, My Name Is $this->name";
     }
